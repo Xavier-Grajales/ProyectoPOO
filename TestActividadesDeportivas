@@ -13,7 +13,8 @@ public class TestActividadesDeportivas {
 		
 	//CREAR OBJETOS DE TIPO PersonaDTO
 	
-		PersonaDTO Cesar = new PersonaDTO (); //Constructor default
+		//Constructor default
+		PersonaDTO Cesar = new PersonaDTO ();
 	
 		//Constructor con 3 parametros
 		PersonaDTO Xavier = new PersonaDTO ("Xavier", 21, "9611260055");
