@@ -85,16 +85,3 @@ public class PersonaDTO {
 		_telefono = telefono;
 		_mail = mail;
 	}
-	
-	//OTROS MÉTODOS
-	public void despliega ()
-	{
-		System.out.println ("*********** Datos generales -Persona***********\n");
-		System.out.println ("Nombre: " + getNombre () + "\n");
-		System.out.println ("Direccion: " + _direccion + "\n");
-		System.out.println ("Edad: " + getEdad () + "\n");
-		System.out.println ("Teléfono: " + _telefono + "\n");
-		System.out.println ("Mail: " + _mail + "\n");
-		System.out.println("**************************************************\n");
-	}
-}
