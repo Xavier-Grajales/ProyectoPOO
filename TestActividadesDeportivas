@@ -1,1 +1,24 @@
+/**
+ * Creado: 22 mar. 2022
+ */
 
+/**
+ * @author CesarAGG
+ */
+public class TestActividadesDeportivas {
+	/**
+	* @param args
+	*/
+	public static void main(String[] args) {
+		
+	//CREAR OBJETOS DE TIPO PersonaDTO
+	
+		PersonaDTO Cesar = new PersonaDTO (); //Constructor default
+	
+		//Constructor con 3 parametros
+		PersonaDTO Xavier = new PersonaDTO ("Xavier", 21, "9611260055");
+	
+		Cesar.despliega(); //Despliega datos
+		Xavier.despliega(); //Despliega datos
+	}
+}
